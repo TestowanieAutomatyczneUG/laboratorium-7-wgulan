@@ -1,7 +1,7 @@
 import unittest
 from sample.PlanetAge import *
 
-class FizzBuzzParameterizedFile(unittest.TestCase):
+class PlanetAgeParameterizedFile(unittest.TestCase):
 
     def test_from_file(self):
       fileTest = open("data/planet_age_data_test")
